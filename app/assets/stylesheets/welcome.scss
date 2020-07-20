@@ -1,3 +1,116 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+
+.site-header img {
+  height:35px;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.featurette-heading {
+  margin: 5rem 0rem 1rem 0rem;
+}
+
+.featurette-heading {
+  font-size: 27px;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.section-header {
+  max-width: 700px;
+}
+
+.benefits-section {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  background-color: #51a2ff;
+}
+
+.benefits-section .heading {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.benefits-section h2 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.first-benefit-content-container {
+  display: flex;
+  width: auto;
+  max-width: 1200px;
+  min-width: 950px;
+  padding-top: 0px;
+  padding-right: 35px;
+  padding-left: 35px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.inner-benefit-content-container {
+  width: 50%;
+}
+
+.benefit-icon-container {
+  width: 50px;
+  height: 40px;
+}
+
+.benefit {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.benefit-text {
+  width: 350px;
+  margin-left: 20px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+
+
+
